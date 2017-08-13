@@ -1,0 +1,44 @@
+@import "settings/config";
+@import "housesimple-frontend/src/scss/tools/spacing";
+@import "housesimple-frontend/src/scss/tools/responsive";
+
+.tabs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+  border-bottom: 2px solid #0099cf;
+}
+
+.tab {
+  cursor: pointer;
+  background-color: #e6e6e6;
+  color: inherit;
+  box-shadow: none;
+  outline: 0;
+  user-select: none;
+  -webkit-appearance: none;
+  flex: 1 1 0;
+  border: none;
+  border-radius: 3px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  padding: 10px 0;
+  font-size: inherit;
+}
+
+.tab + .tab {
+  margin-left: 3px;
+}
+
+.tab > * {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.activeTab {
+  background: #0099cf;
+  color: #fff;
+  cursor: default;
+}

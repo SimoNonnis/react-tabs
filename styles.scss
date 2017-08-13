@@ -1,0 +1,20 @@
+@import "settings/config";
+@import "housesimple-frontend/src/scss/tools/spacing";
+@import "housesimple-frontend/src/scss/tools/responsive";
+
+.labelText {
+  display: none;
+
+  @include t-media(md) {
+    display: inline-block;
+    margin-left: .5em;
+  }
+}
+
+.indicator {
+  align-self: flex-start;
+  margin-left: .5em;
+  padding: 1px;
+  background-color: #fff;
+  border-radius: 50%;
+}

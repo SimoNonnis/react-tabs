@@ -1,0 +1,9 @@
+@import "settings/config";
+@import "housesimple-frontend/src/scss/tools/spacing";
+@import "housesimple-frontend/src/scss/tools/responsive";
+
+.tabContent {
+  min-height: 200px;
+  background-color: #fff;
+  padding: 1.5em;
+}
